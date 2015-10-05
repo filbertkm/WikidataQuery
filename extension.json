@@ -1,0 +1,31 @@
+{
+	"name": "Wikidata Query",
+	"version": "0.1",
+	"author": [
+		"Katie Filbert"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:WikidataQuery",
+	"descriptionmsg": "wikidataquery-desc",
+	"license-name": "MIT",
+	"type": "wikibase",
+	"ExtensionMessagesFiles": {
+		"WikidataQueryAlias": "WikidataQuery.i18n.alias.php"
+	},
+	"config": {
+		"WikidataQueryUrl": "https://query.wikidata.org/bigdata/namespace/wdq/sparql",
+		"WikidataQueryPrefixes": {
+			"wikibase": "http://wikiba.se/ontology#",
+			"wd": "http://www.wikidata.org/entity/",
+			"wdt": "http://www.wikidata.org/prop/direct/",
+			"rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+		}
+	},
+	"MessagesDirs": {
+		"WikidataQuery": [
+			"i18n"
+		]
+	},
+	"SpecialPages": {
+	},
+	"manifest_version": 1
+}

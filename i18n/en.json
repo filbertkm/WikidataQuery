@@ -1,0 +1,6 @@
+{
+    "@metadata": {
+        "authors": []
+    },
+    "wikidataquery-desc": "Query Wikidata from within MediaWiki, via Wikidata Query Service"
+}
